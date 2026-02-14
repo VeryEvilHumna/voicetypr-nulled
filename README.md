@@ -14,6 +14,16 @@
   [Download](https://github.com/moinulmoin/voicetypr/releases/latest) • [Features](#features) • [Installation](#installation) • [Usage](#usage)
 </div>
 
+## Building on Windows
+
+Read [BUILDING.md of whisper-rs](https://codeberg.org/tazz4843/whisper-rs/src/branch/master/BUILDING.md#running-on-windows-using-microsoft-visual-studio-c)
+
+If you get the error while building whisper-rs, try setting CARGO_TARGET_DIR to "C:/tmp"
+
+```ps
+$Env:CARGO_TARGET_DIR="C:/tmp"
+```
+
 ## 🎯 What is VoiceTypr?
 
 VoiceTypr is an open source AI voice-to-text dictation tool, alternative to Wispr Flow and SuperWhisper. Available for macOS and Windows. Pay once, use forever.
