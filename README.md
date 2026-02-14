@@ -1,7 +1,23 @@
+# VoiceTypr Nulled
+
+I live in Russia with no ability to pay for the license because of sanctions. If you have the similar issue you can download this nulled version. If you have the ability to pay — please do, this software is great
+
+## Building on Windows
+
+Read [BUILDING.md of whisper-rs](https://codeberg.org/tazz4843/whisper-rs/src/branch/master/BUILDING.md#running-on-windows-using-microsoft-visual-studio-c)
+
+If you get the error while building whisper-rs, try setting CARGO_TARGET_DIR to "C:/tmp"
+
+```ps
+$Env:CARGO_TARGET_DIR="C:/tmp"
+```
+
+## Original Readme
+
 <div align="center">
   <img src="src-tauri/icons/icon.png" alt="VoiceTypr Logo" width="128" height="128">
 
-  # VoiceTypr
+# VoiceTypr
 
   **Open Source AI Powered voice to text dictation tool, alternative to superwhisper, whispr flow**
 
@@ -14,16 +30,6 @@
   [Download](https://github.com/moinulmoin/voicetypr/releases/latest) • [Features](#features) • [Installation](#installation) • [Usage](#usage)
 </div>
 
-## Building on Windows
-
-Read [BUILDING.md of whisper-rs](https://codeberg.org/tazz4843/whisper-rs/src/branch/master/BUILDING.md#running-on-windows-using-microsoft-visual-studio-c)
-
-If you get the error while building whisper-rs, try setting CARGO_TARGET_DIR to "C:/tmp"
-
-```ps
-$Env:CARGO_TARGET_DIR="C:/tmp"
-```
-
 ## 🎯 What is VoiceTypr?
 
 VoiceTypr is an open source AI voice-to-text dictation tool, alternative to Wispr Flow and SuperWhisper. Available for macOS and Windows. Pay once, use forever.
@@ -31,33 +37,39 @@ VoiceTypr is an open source AI voice-to-text dictation tool, alternative to Wisp
 ## ✨ Features
 
 ### 🎙️ **Instant Voice-to-Text**
+
 - System-wide hotkey for quick recording
 - Automatic text insertion at cursor position
 - Works in any app - cursor, claude code, chatgpt, slack, etc
 
 ### 🤖 **Powered by local AI**
+
 - 100% offline transcription - your voice never leaves your device
 - Multiple model sizes for accuracy vs speed tradeoffs
 - Support for 99+ languages out of the box
 - Hardware acceleration (Metal on macOS)
 
 ### 🚀 **Native Performance**
+
 - Built with Rust and Tauri for blazing-fast performance
 - Optimized for each platform with hardware acceleration
 - Minimal resource usage with maximum efficiency
 
 ### 🔒 **Privacy First**
+
 - Complete offline operation - no cloud, no tracking (only trial check)
 - Your recordings stay on your device
 - Open source for full transparency
 
 ### 🤖 **AI Enhancement** (NEW)
+
 - Transform your transcriptions with AI (Groq/Gemini)
 - Smart presets: Prompts, Email, Commits, Notes
 - Secure API key storage
 - Requires internet connection for enhancement only
 
 ### 🎨 **Clean Design**
+
 - Clean, user interface
 - Menubar integration for quick access
 - Visual feedback during recording
@@ -68,12 +80,14 @@ VoiceTypr is an open source AI voice-to-text dictation tool, alternative to Wisp
 ### Requirements
 
 #### macOS
+
 - macOS 13.0 (Ventura) or later
 - 3-4 GB free disk space (for AI models)
 - Microphone access permission
 - Accessibility access permission
 
 #### Windows
+
 - Windows 10/11 (64-bit)
 - 3-4 GB free disk space (for AI models)
 - GPU acceleration available (5-10x faster with NVIDIA, AMD, Intel GPUs)
@@ -81,6 +95,7 @@ VoiceTypr is an open source AI voice-to-text dictation tool, alternative to Wisp
 ### Quick Install
 
 #### macOS
+
 1. Download the latest [VoiceTypr.dmg](https://github.com/moinulmoin/voicetypr/releases/latest)
 2. Open the DMG and drag VoiceTypr to Applications
 3. Launch VoiceTypr from Applications
@@ -89,12 +104,14 @@ VoiceTypr is an open source AI voice-to-text dictation tool, alternative to Wisp
 > **Note**: VoiceTypr is fully signed and notarized by Apple, so you can run it without security warnings.
 
 #### Windows
+
 1. Download the latest [VoiceTypr installer](https://github.com/moinulmoin/voicetypr/releases/latest)
 2. Run the installer
 3. Launch VoiceTypr from Start Menu
 4. Follow the onboarding to download your preferred AI model
 
 > **GPU Acceleration (5-10x faster)**
+>
 > - VoiceTypr automatically uses your GPU if available
 > - For best performance, ensure your graphics drivers are up to date:
 >   - [NVIDIA Drivers](https://www.nvidia.com/drivers)
@@ -143,9 +160,10 @@ voicetypr/
 VoiceTypr automatically detects and uses your GPU for faster transcription. If you're experiencing slower performance:
 
 **Update your graphics drivers** - This is the most common fix:
-   - [NVIDIA Drivers](https://www.nvidia.com/drivers)
-   - [AMD Drivers](https://www.amd.com/support)
-   - [Intel Drivers](https://www.intel.com/content/www/us/en/support/products/80939/graphics.html)
+
+- [NVIDIA Drivers](https://www.nvidia.com/drivers)
+- [AMD Drivers](https://www.amd.com/support)
+- [Intel Drivers](https://www.intel.com/content/www/us/en/support/products/80939/graphics.html)
 
 > **Note**: VoiceTypr always works - it automatically falls back to CPU if GPU acceleration is unavailable
 
