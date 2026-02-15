@@ -553,15 +553,9 @@ impl Transcriber {
         log::info!("[LANGUAGE] Received language: {:?}", language);
 
         let final_lang = if let Some(lang) = language {
-            if lang == "auto" {
-                // Auto-detect removed due to 30-second requirement, default to English
-                log::info!("[LANGUAGE] Auto-detection no longer supported, defaulting to English");
-                Some("en")
-            } else {
-                let validated = super::languages::validate_language(Some(lang));
-                log::info!("[LANGUAGE] Using language: {}", validated);
-                Some(validated)
-            }
+            let validated = super::languages::validate_language(Some(lang));
+            log::info!("[LANGUAGE] Using language: {}", validated);
+            Some(validated)
         } else {
             log::info!("[LANGUAGE] No language specified, using English");
             Some("en")

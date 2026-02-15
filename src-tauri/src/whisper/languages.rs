@@ -15,6 +15,10 @@ pub struct Language {
 pub static SUPPORTED_LANGUAGES: Lazy<HashMap<&'static str, Language>> = Lazy::new(|| {
     let languages = vec![
         Language {
+            code: "auto",
+            name: "Detect language",
+        },
+        Language {
             code: "en",
             name: "English",
         },

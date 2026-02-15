@@ -19,6 +19,7 @@ import * as React from "react"
 
 // Languages sorted alphabetically by their display name for better UX
 export const languages = [
+  { value: "auto", label: "Detect language"},
   { value: "af", label: "Afrikaans" },
   { value: "sq", label: "Albanian" },
   { value: "am", label: "Amharic" },
